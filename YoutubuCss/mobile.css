@@ -1,0 +1,385 @@
+/* media query */
+/* @media only screen and(min-width: 1080px) and (max-width: 1400px) {
+  .main_center_div {
+    width: 33%;
+  }
+  .main_center_div_img {
+    width: 360px;
+  }
+} */
+@media (max-width: 1400px) {
+  #main_center {
+    text-align: center;
+  }
+  .main_center_div {
+    /* max-width: 30%;
+      width: 350px; */
+    width: 30%;
+  }
+  .main_center_div_img {
+    width: 350px;
+    height: 190px;
+  }
+  .main_center_div_details {
+    width: 310px;
+  }
+}
+@media (max-width: 1220px) {
+  .main_center_div {
+    width: 45%;
+  }
+  .main_center_div_img {
+    width: 380px;
+    height: 200px;
+  }
+  .main_center_div_details {
+    width: 350px;
+  }
+}
+@media (max-width: 1190px) {
+  .main_center_div {
+    width: 45%;
+  }
+  .main_center_div_img {
+    width: 380px;
+    height: 200px;
+  }
+  .main_center_div_details {
+    width: 350px;
+  }
+  .main_center_div_details_icon {
+    left: 50px;
+  }
+}
+@media (max-width: 1180px) {
+  .main_center_div {
+    width: 45%;
+  }
+  .main_center_div_img {
+    width: 380px;
+    height: 200px;
+  }
+  .main_center_div_details {
+    width: 350px;
+  }
+  .main_center_div_details_icon {
+    left: 50px;
+  }
+}
+@media (max-width: 1100px) {
+  .main_center_div {
+    width: 45%;
+  }
+  .main_center_div_img {
+    width: 380px;
+    height: 200px;
+  }
+  .main_center_div_details {
+    width: 300px;
+  }
+  .main_center_div_details_icon {
+    left: 40px;
+  }
+}
+
+@media (max-width: 960px) {
+  .main_center_div {
+    /* max-width: 30%;
+      width: 350px; */
+    width: 45%;
+  }
+  .main_center_div_img {
+    width: 370px;
+    height: 180px;
+  }
+  .main_center_div_details {
+    width: 300px;
+  }
+  .main_center_div_details_icon {
+    left: 25px;
+  }
+}
+@media (max-width: 930px) {
+  .main_center_div {
+    /* max-width: 30%;
+      width: 350px; */
+    width: 45%;
+  }
+  .main_center_div_img {
+    width: 350px;
+    height: 175px;
+  }
+  .main_center_div_details {
+    width: 300px;
+  }
+  .main_center_div_details_icon {
+    left: 20px;
+  }
+}
+@media (max-width: 850px) {
+  .main_center_div {
+    /* max-width: 30%;
+      width: 350px; */
+    width: 45%;
+  }
+  .main_center_div_img {
+    width: 340px;
+  }
+
+  .main_center_div_details_icon {
+    left: 15px;
+  }
+}
+@media (max-width: 840px) {
+  .main_center_div {
+    /* max-width: 30%;
+      width: 350px; */
+    width: 45%;
+  }
+  .main_center_div_img {
+    width: 320px;
+  }
+  .main_center_div_details_icon {
+    left: 10px;
+  }
+}
+
+@media (max-width: 820px) {
+  .main_center_div {
+    /* max-width: 30%;
+      width: 350px; */
+    width: 45%;
+  }
+  .main_center_div_img {
+    width: 330px;
+  }
+}
+@media (max-width: 800px) {
+  .main_center_div {
+    width: 45%;
+  }
+  .main_center_div_img {
+    width: 320px;
+  }
+}
+
+@media (max-width: 798px) {
+  .main_center_div {
+    width: 70%;
+  }
+  .main_center_div_img {
+    width: 380px;
+    height: 210px;
+  }
+  .main_center_div_details {
+    width: 350px;
+  }
+  .main_center_div_details_icon {
+    left: 50px;
+  }
+}
+@media (max-width: 750px) {
+  /* 검색 창 사이즈 조절  */
+  #header_center_div {
+    width: 60%;
+  }
+  #header_center_div_div {
+    max-width: 100%;
+    width: 400px;
+  }
+  #header_center_div_text {
+    width: 85%;
+    position: relative;
+    bottom: 8px;
+  }
+  #header_center_div_button_search {
+    width: 13.8%;
+  }
+  /* main center */
+  .main_center_div {
+    width: 70%;
+  }
+  .main_center_div_img {
+    width: 380px;
+    height: 210px;
+  }
+  .main_center_div_details {
+    width: 350px;
+  }
+  .main_center_div_details_icon {
+    left: 40px;
+  }
+}
+@media (max-width: 720px) {
+  /*검색 창 사이즈가 줄어 들기 */
+  #header_center_div {
+    width: 55%;
+  }
+  #header_center_div_div {
+    max-width: 100%;
+    width: 350px;
+  }
+  #header_center_div_text {
+    width: 85%;
+    position: relative;
+    bottom: 8px;
+  }
+  #header_center_div_button_search {
+    width: 13.8%;
+  }
+}
+@media (max-width: 710px) {
+  /* 검색 창 사이즈 줄이기 */
+  #header_center_div {
+    width: 50%;
+  }
+  #header_center_div_div {
+    max-width: 100%;
+    width: 300px;
+  }
+  #header_center_div_text {
+    width: 85%;
+  }
+  #header_center_div_button_search {
+    width: 13.5%;
+  }
+  /* main center  */
+  .main_center_div {
+    width: 70%;
+  }
+  .main_center_div_img {
+    width: 380px;
+    height: 210px;
+  }
+  .main_center_div_details_icon {
+    left: 30px;
+  }
+}
+@media (max-width: 680px) {
+  #header_center_div {
+    width: 40%;
+  }
+  #header_center_div_div {
+    width: 250px;
+  }
+  #header_center_div_text {
+    width: 84%;
+  }
+  #header_center_div_button_search {
+    width: 14%;
+  }
+  .main_center_div {
+    width: 70%;
+  }
+  .main_center_div_img {
+    width: 380px;
+    height: 210px;
+  }
+
+  .main_center_div_details_icon {
+    left: 20px;
+  }
+}
+
+@media (max-width: 620px) {
+  #header_center_div {
+    width: 40%;
+  }
+  #header_center_div_div {
+    width: 200px;
+  }
+  #header_center_div_text {
+    width: 82%;
+  }
+  #header_center_div_button_search {
+    width: 15%;
+  }
+}
+/* @media (max-width: 680px) {
+  .main_center_div_details_icon {
+    left: 10px;
+  }
+} */
+@media (max-width: 580px) {
+  .main_center_div {
+    width: 100%;
+  }
+  .main_center_div_img {
+    width: 380px;
+    height: 210px;
+  }
+  .main_center_div_details {
+    width: 350px;
+  }
+  .main_center_div_details_icon {
+    left: 40px;
+  }
+}
+@media (max-width: 510px) {
+  .main_center_div {
+    /* max-width: 30%;
+      width: 350px; */
+    width: 90%;
+  }
+  .main_center_div_img {
+    width: 320px;
+  }
+  .main_center_div_details {
+    width: 300px;
+  }
+  .main_center_div_details_icon {
+    left: 30px;
+  }
+}
+@media screen and (max-width: 490px) {
+  /* 검색창 사라지기*/
+  #header_center_div_text {
+    display: none;
+  }
+  #header_center_div {
+    width: 20%;
+  }
+  #header_center_div_div {
+    width: 40px;
+    border-radius: 0%;
+    border: #303030;
+  }
+  #header_center_div_button_search {
+    width: 100%;
+    background-color: #252525;
+  }
+  #header_center_div_iconback {
+    border-radius: 0%;
+    border: #303030;
+    background-color: #252525;
+  }
+}
+@media (max-width: 450px) {
+  .main_center_div {
+    /* max-width: 30%;
+      width: 350px; */
+    width: 90%;
+  }
+  .main_center_div_img {
+    width: 300px;
+  }
+  #main_left_nav {
+    display: none;
+  }
+}
+@media (max-width: 390px) {
+  .main_center_div_details {
+    width: 280px;
+  }
+  .main_center_div_details_icon {
+    left: 15px;
+  }
+}
+@media (max-width: 360px) {
+  .main_center_div_details {
+    width: 250px;
+  }
+  .main_center_div_details_icon {
+    left: 5px;
+  }
+}
